@@ -1,0 +1,29 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-slides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
